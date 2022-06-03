@@ -1,0 +1,13 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Machine Learning workspace with soft delete enabled.",
+  "description": "This deployment template specifies an Azure Machine Learning workspace, and its associated resources including Azure Key Vault, Azure Storage, Azure Application Insights and Azure Container Registry. This configuration shows how to enable soft delete to protect against data loss at accidental deletion of the workspace.",
+  "summary": "This template creates an Azure Machine Learning service workspace with soft delete enabled.",
+  "githubUsername": "denniseik",
+  "dateUpdated": "2022-06-03",
+  "environments": [
+    "AzureCloud",
+    "AzureUSGovernment"
+  ]
+}
