@@ -142,6 +142,7 @@ resource storage 'Microsoft.Storage/storageAccounts@2022-09-01' = {
     allowBlobPublicAccess: false
     allowCrossTenantReplication: false
     allowSharedKeyAccess: true
+    publicNetworkAccess: 'Disabled'
     encryption: {
       keySource: 'Microsoft.Storage'
       requireInfrastructureEncryption: false
